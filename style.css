@@ -51,8 +51,9 @@ button{
     border-radius: 20px;
     margin: 15px;
 }
-#ron{
-    margin: 10px;
+.ron{
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
 }
 
