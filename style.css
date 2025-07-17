@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar{
+    height: 100px;
+    background-color: blue;
+    color: black;
+    line-height: 5rem;
+}
+
+.imgs{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+button{
+    cursor: pointer;
+}
+button{
+    /* height: 40px; */
+    
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 2rem;
+
+}
+.click{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+#ron{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.h2{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+#follow{
+    color: black;
+    font-size: large;
+}
+
+
+.foot{
+    height: 100px;
+    background-color: blue;
+    color: black;
+    /* line-height: 5rem; */
+    line-height: 100px;
+
+}
+
+@media (max-width: 600px){
+.ron{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    font-size: 30px;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+    
+}
